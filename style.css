@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -37,7 +39,6 @@ h1 {
 
 p {
     size: 18px;
-    color: #e5e7eb;
 }
 
 .section1 {
@@ -54,6 +55,7 @@ p {
     flex-direction: column;
     justify-items: center;
     flex-wrap: wrap;
+    color: #f9faf8;
 }
 
 .section1right {
@@ -81,7 +83,7 @@ h2 {
 .section2 {
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .planetandtext {
@@ -89,25 +91,80 @@ h2 {
     width: 250px;
     flex-wrap: wrap;
     padding: 20px;
+    color: black;
 }
 
 .section3 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: #e5e7eb;
+    padding-bottom: 15px;
 }
 
 .quote {
     padding: 20px;
     height: 40px;
     width: 500px;
-    display: flex;
+    align-self: center;
     text-align: center;
 }
 
 .author {
-    padding: 15px;
+    padding: 1px;
+    align-self: center;
+}
+
+.section4 {
+    align-self: center;
     display: flex;
-    text-align: right;
+    justify-content: space-between;
+    justify-items: center;
+    width: 700px;
+    height: 50px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    padding: 8px;
+    padding-top: 10px;
+
+
+}
+.section4left {
+    padding: 10px;
+    padding-top: 20px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    color: black;
+    background-color:#e5e7eb;
+}
+.section4right {
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+    width: 100px;
+    background-color:#e5e7eb;
+}
+.SignUp2 {
+    width: 75px;
+    height: 20px;
+    border: 1px;
+    border-color: #e5e7eb;
+    padding: 0 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+footer {
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    color: #e5e7eb;
 }
